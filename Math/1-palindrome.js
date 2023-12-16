@@ -18,7 +18,7 @@
 //   while (num > 0) {
 //     const lastDigit = num % 10;
 //     rev = rev * 10 + lastDigit;
-//     num = Math.floor(num / 10);
+//     num = Math.floor(num / 10); // num = ~~(num / 10);
 //   }
 //   return rev;
 // };
